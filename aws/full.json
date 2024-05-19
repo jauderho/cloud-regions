@@ -3,7 +3,7 @@
     "copyright": "Copyright 2024 Amazon.com, Inc. or its affiliates. All rights reserved.",
     "disclaimer": "This file is intended for use only on aws.amazon.com. We do not guarantee its availability or accuracy.",
     "format:version": "1.0",
-    "source:version": "20240426042700"
+    "source:version": "20240516182700"
   },
   "prices": [
     {
@@ -736,6 +736,14 @@
     },
     {
       "attributes": {
+        "aws:region": "ca-west-1",
+        "aws:serviceName": "AWS Shield",
+        "aws:serviceUrl": "https://aws.amazon.com/shield/"
+      },
+      "id": "shield:ca-west-1"
+    },
+    {
+      "attributes": {
         "aws:region": "eu-west-2",
         "aws:serviceName": "AWS Shield",
         "aws:serviceUrl": "https://aws.amazon.com/shield/"
@@ -749,14 +757,6 @@
         "aws:serviceUrl": "https://aws.amazon.com/shield/"
       },
       "id": "shield:eu-west-3"
-    },
-    {
-      "attributes": {
-        "aws:region": "me-south-1",
-        "aws:serviceName": "AWS Shield",
-        "aws:serviceUrl": "https://aws.amazon.com/shield/"
-      },
-      "id": "shield:me-south-1"
     },
     {
       "attributes": {
@@ -840,14 +840,6 @@
     },
     {
       "attributes": {
-        "aws:region": "eu-south-1",
-        "aws:serviceName": "AWS Shield",
-        "aws:serviceUrl": "https://aws.amazon.com/shield/"
-      },
-      "id": "shield:eu-south-1"
-    },
-    {
-      "attributes": {
         "aws:region": "eu-west-1",
         "aws:serviceName": "AWS Shield",
         "aws:serviceUrl": "https://aws.amazon.com/shield/"
@@ -861,6 +853,14 @@
         "aws:serviceUrl": "https://aws.amazon.com/shield/"
       },
       "id": "shield:me-central-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "me-south-1",
+        "aws:serviceName": "AWS Shield",
+        "aws:serviceUrl": "https://aws.amazon.com/shield/"
+      },
+      "id": "shield:me-south-1"
     },
     {
       "attributes": {
@@ -893,6 +893,14 @@
         "aws:serviceUrl": "https://aws.amazon.com/shield/"
       },
       "id": "shield:eu-central-2"
+    },
+    {
+      "attributes": {
+        "aws:region": "eu-south-1",
+        "aws:serviceName": "AWS Shield",
+        "aws:serviceUrl": "https://aws.amazon.com/shield/"
+      },
+      "id": "shield:eu-south-1"
     },
     {
       "attributes": {
@@ -1032,11 +1040,11 @@
     },
     {
       "attributes": {
-        "aws:region": "eu-west-1",
+        "aws:region": "eu-south-1",
         "aws:serviceName": "Amazon Managed Workflows for Apache Airflow",
         "aws:serviceUrl": "https://aws.amazon.com/managed-workflows-for-apache-airflow/"
       },
-      "id": "mwaa:eu-west-1"
+      "id": "mwaa:eu-south-1"
     },
     {
       "attributes": {
@@ -1056,6 +1064,14 @@
     },
     {
       "attributes": {
+        "aws:region": "me-south-1",
+        "aws:serviceName": "Amazon Managed Workflows for Apache Airflow",
+        "aws:serviceUrl": "https://aws.amazon.com/managed-workflows-for-apache-airflow/"
+      },
+      "id": "mwaa:me-south-1"
+    },
+    {
+      "attributes": {
         "aws:region": "sa-east-1",
         "aws:serviceName": "Amazon Managed Workflows for Apache Airflow",
         "aws:serviceUrl": "https://aws.amazon.com/managed-workflows-for-apache-airflow/"
@@ -1064,27 +1080,27 @@
     },
     {
       "attributes": {
-        "aws:region": "us-east-1",
+        "aws:region": "us-west-1",
         "aws:serviceName": "Amazon Managed Workflows for Apache Airflow",
         "aws:serviceUrl": "https://aws.amazon.com/managed-workflows-for-apache-airflow/"
       },
-      "id": "mwaa:us-east-1"
+      "id": "mwaa:us-west-1"
     },
     {
       "attributes": {
-        "aws:region": "us-west-2",
+        "aws:region": "af-south-1",
         "aws:serviceName": "Amazon Managed Workflows for Apache Airflow",
         "aws:serviceUrl": "https://aws.amazon.com/managed-workflows-for-apache-airflow/"
       },
-      "id": "mwaa:us-west-2"
+      "id": "mwaa:af-south-1"
     },
     {
       "attributes": {
-        "aws:region": "ap-northeast-1",
+        "aws:region": "ap-east-1",
         "aws:serviceName": "Amazon Managed Workflows for Apache Airflow",
         "aws:serviceUrl": "https://aws.amazon.com/managed-workflows-for-apache-airflow/"
       },
-      "id": "mwaa:ap-northeast-1"
+      "id": "mwaa:ap-east-1"
     },
     {
       "attributes": {
@@ -1093,14 +1109,6 @@
         "aws:serviceUrl": "https://aws.amazon.com/managed-workflows-for-apache-airflow/"
       },
       "id": "mwaa:ap-south-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "ap-southeast-2",
-        "aws:serviceName": "Amazon Managed Workflows for Apache Airflow",
-        "aws:serviceUrl": "https://aws.amazon.com/managed-workflows-for-apache-airflow/"
-      },
-      "id": "mwaa:ap-southeast-2"
     },
     {
       "attributes": {
@@ -1128,11 +1136,51 @@
     },
     {
       "attributes": {
+        "aws:region": "eu-west-1",
+        "aws:serviceName": "Amazon Managed Workflows for Apache Airflow",
+        "aws:serviceUrl": "https://aws.amazon.com/managed-workflows-for-apache-airflow/"
+      },
+      "id": "mwaa:eu-west-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "us-east-1",
+        "aws:serviceName": "Amazon Managed Workflows for Apache Airflow",
+        "aws:serviceUrl": "https://aws.amazon.com/managed-workflows-for-apache-airflow/"
+      },
+      "id": "mwaa:us-east-1"
+    },
+    {
+      "attributes": {
         "aws:region": "us-east-2",
         "aws:serviceName": "Amazon Managed Workflows for Apache Airflow",
         "aws:serviceUrl": "https://aws.amazon.com/managed-workflows-for-apache-airflow/"
       },
       "id": "mwaa:us-east-2"
+    },
+    {
+      "attributes": {
+        "aws:region": "us-west-2",
+        "aws:serviceName": "Amazon Managed Workflows for Apache Airflow",
+        "aws:serviceUrl": "https://aws.amazon.com/managed-workflows-for-apache-airflow/"
+      },
+      "id": "mwaa:us-west-2"
+    },
+    {
+      "attributes": {
+        "aws:region": "ap-northeast-1",
+        "aws:serviceName": "Amazon Managed Workflows for Apache Airflow",
+        "aws:serviceUrl": "https://aws.amazon.com/managed-workflows-for-apache-airflow/"
+      },
+      "id": "mwaa:ap-northeast-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "ap-southeast-2",
+        "aws:serviceName": "Amazon Managed Workflows for Apache Airflow",
+        "aws:serviceUrl": "https://aws.amazon.com/managed-workflows-for-apache-airflow/"
+      },
+      "id": "mwaa:ap-southeast-2"
     },
     {
       "attributes": {
@@ -10616,19 +10664,19 @@
     },
     {
       "attributes": {
+        "aws:region": "ca-west-1",
+        "aws:serviceName": "AWS WAF",
+        "aws:serviceUrl": "https://aws.amazon.com/waf/"
+      },
+      "id": "waf:ca-west-1"
+    },
+    {
+      "attributes": {
         "aws:region": "cn-northwest-1",
         "aws:serviceName": "AWS WAF",
         "aws:serviceUrl": "https://aws.amazon.com/waf/"
       },
       "id": "waf:cn-northwest-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "eu-west-3",
-        "aws:serviceName": "AWS WAF",
-        "aws:serviceUrl": "https://aws.amazon.com/waf/"
-      },
-      "id": "waf:eu-west-3"
     },
     {
       "attributes": {
@@ -10669,6 +10717,30 @@
         "aws:serviceUrl": "https://aws.amazon.com/waf/"
       },
       "id": "waf:eu-south-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "eu-west-3",
+        "aws:serviceName": "AWS WAF",
+        "aws:serviceUrl": "https://aws.amazon.com/waf/"
+      },
+      "id": "waf:eu-west-3"
+    },
+    {
+      "attributes": {
+        "aws:region": "eu-central-1",
+        "aws:serviceName": "AWS IoT FleetWise",
+        "aws:serviceUrl": "https://aws.amazon.com/iot-fleetwise/"
+      },
+      "id": "iotfleetwise:eu-central-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "us-east-1",
+        "aws:serviceName": "AWS IoT FleetWise",
+        "aws:serviceUrl": "https://aws.amazon.com/iot-fleetwise/"
+      },
+      "id": "iotfleetwise:us-east-1"
     },
     {
       "attributes": {
@@ -14312,19 +14384,19 @@
     },
     {
       "attributes": {
+        "aws:region": "ca-west-1",
+        "aws:serviceName": "AWS Firewall Manager",
+        "aws:serviceUrl": "https://aws.amazon.com/firewall-manager/"
+      },
+      "id": "fms:ca-west-1"
+    },
+    {
+      "attributes": {
         "aws:region": "eu-central-1",
         "aws:serviceName": "AWS Firewall Manager",
         "aws:serviceUrl": "https://aws.amazon.com/firewall-manager/"
       },
       "id": "fms:eu-central-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "eu-south-1",
-        "aws:serviceName": "AWS Firewall Manager",
-        "aws:serviceUrl": "https://aws.amazon.com/firewall-manager/"
-      },
-      "id": "fms:eu-south-1"
     },
     {
       "attributes": {
@@ -14416,19 +14488,19 @@
     },
     {
       "attributes": {
-        "aws:region": "ap-southeast-4",
-        "aws:serviceName": "AWS Firewall Manager",
-        "aws:serviceUrl": "https://aws.amazon.com/firewall-manager/"
-      },
-      "id": "fms:ap-southeast-4"
-    },
-    {
-      "attributes": {
         "aws:region": "ca-central-1",
         "aws:serviceName": "AWS Firewall Manager",
         "aws:serviceUrl": "https://aws.amazon.com/firewall-manager/"
       },
       "id": "fms:ca-central-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "eu-south-1",
+        "aws:serviceName": "AWS Firewall Manager",
+        "aws:serviceUrl": "https://aws.amazon.com/firewall-manager/"
+      },
+      "id": "fms:eu-south-1"
     },
     {
       "attributes": {
@@ -14480,19 +14552,19 @@
     },
     {
       "attributes": {
+        "aws:region": "ap-southeast-4",
+        "aws:serviceName": "AWS Firewall Manager",
+        "aws:serviceUrl": "https://aws.amazon.com/firewall-manager/"
+      },
+      "id": "fms:ap-southeast-4"
+    },
+    {
+      "attributes": {
         "aws:region": "cn-north-1",
         "aws:serviceName": "AWS Firewall Manager",
         "aws:serviceUrl": "https://aws.amazon.com/firewall-manager/"
       },
       "id": "fms:cn-north-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "cn-northwest-1",
-        "aws:serviceName": "AWS Firewall Manager",
-        "aws:serviceUrl": "https://aws.amazon.com/firewall-manager/"
-      },
-      "id": "fms:cn-northwest-1"
     },
     {
       "attributes": {
@@ -14533,6 +14605,14 @@
         "aws:serviceUrl": "https://aws.amazon.com/firewall-manager/"
       },
       "id": "fms:us-gov-west-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "cn-northwest-1",
+        "aws:serviceName": "AWS Firewall Manager",
+        "aws:serviceUrl": "https://aws.amazon.com/firewall-manager/"
+      },
+      "id": "fms:cn-northwest-1"
     },
     {
       "attributes": {
@@ -15048,19 +15128,19 @@
     },
     {
       "attributes": {
-        "aws:region": "ap-southeast-4",
-        "aws:serviceName": "AWS Control Tower",
-        "aws:serviceUrl": "https://aws.amazon.com/controltower"
-      },
-      "id": "controltower:ap-southeast-4"
-    },
-    {
-      "attributes": {
         "aws:region": "ca-central-1",
         "aws:serviceName": "AWS Control Tower",
         "aws:serviceUrl": "https://aws.amazon.com/controltower"
       },
       "id": "controltower:ca-central-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "ca-west-1",
+        "aws:serviceName": "AWS Control Tower",
+        "aws:serviceUrl": "https://aws.amazon.com/controltower"
+      },
+      "id": "controltower:ca-west-1"
     },
     {
       "attributes": {
@@ -15093,6 +15173,14 @@
         "aws:serviceUrl": "https://aws.amazon.com/controltower"
       },
       "id": "controltower:us-gov-east-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "ap-southeast-4",
+        "aws:serviceName": "AWS Control Tower",
+        "aws:serviceUrl": "https://aws.amazon.com/controltower"
+      },
+      "id": "controltower:ap-southeast-4"
     },
     {
       "attributes": {
@@ -16144,14 +16232,6 @@
     },
     {
       "attributes": {
-        "aws:region": "ap-northeast-2",
-        "aws:serviceName": "Amazon FSx for NetApp ONTAP",
-        "aws:serviceUrl": "https://aws.amazon.com/fsx/netapp-ontap"
-      },
-      "id": "fsx-ontap:ap-northeast-2"
-    },
-    {
-      "attributes": {
         "aws:region": "ap-southeast-1",
         "aws:serviceName": "Amazon FSx for NetApp ONTAP",
         "aws:serviceUrl": "https://aws.amazon.com/fsx/netapp-ontap"
@@ -16165,6 +16245,14 @@
         "aws:serviceUrl": "https://aws.amazon.com/fsx/netapp-ontap"
       },
       "id": "fsx-ontap:ca-central-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "ca-west-1",
+        "aws:serviceName": "Amazon FSx for NetApp ONTAP",
+        "aws:serviceUrl": "https://aws.amazon.com/fsx/netapp-ontap"
+      },
+      "id": "fsx-ontap:ca-west-1"
     },
     {
       "attributes": {
@@ -16213,6 +16301,14 @@
         "aws:serviceUrl": "https://aws.amazon.com/fsx/netapp-ontap"
       },
       "id": "fsx-ontap:us-west-2"
+    },
+    {
+      "attributes": {
+        "aws:region": "ap-northeast-2",
+        "aws:serviceName": "Amazon FSx for NetApp ONTAP",
+        "aws:serviceUrl": "https://aws.amazon.com/fsx/netapp-ontap"
+      },
+      "id": "fsx-ontap:ap-northeast-2"
     },
     {
       "attributes": {
@@ -16288,22 +16384,6 @@
     },
     {
       "attributes": {
-        "aws:region": "us-west-1",
-        "aws:serviceName": "Amazon FSx for NetApp ONTAP",
-        "aws:serviceUrl": "https://aws.amazon.com/fsx/netapp-ontap"
-      },
-      "id": "fsx-ontap:us-west-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "ap-east-1",
-        "aws:serviceName": "Amazon FSx for NetApp ONTAP",
-        "aws:serviceUrl": "https://aws.amazon.com/fsx/netapp-ontap"
-      },
-      "id": "fsx-ontap:ap-east-1"
-    },
-    {
-      "attributes": {
         "aws:region": "ap-northeast-1",
         "aws:serviceName": "Amazon FSx for NetApp ONTAP",
         "aws:serviceUrl": "https://aws.amazon.com/fsx/netapp-ontap"
@@ -16373,6 +16453,22 @@
         "aws:serviceUrl": "https://aws.amazon.com/fsx/netapp-ontap"
       },
       "id": "fsx-ontap:il-central-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "us-west-1",
+        "aws:serviceName": "Amazon FSx for NetApp ONTAP",
+        "aws:serviceUrl": "https://aws.amazon.com/fsx/netapp-ontap"
+      },
+      "id": "fsx-ontap:us-west-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "ap-east-1",
+        "aws:serviceName": "Amazon FSx for NetApp ONTAP",
+        "aws:serviceUrl": "https://aws.amazon.com/fsx/netapp-ontap"
+      },
+      "id": "fsx-ontap:ap-east-1"
     },
     {
       "attributes": {
@@ -21872,6 +21968,14 @@
     },
     {
       "attributes": {
+        "aws:region": "ap-south-1",
+        "aws:serviceName": "Amazon Bedrock",
+        "aws:serviceUrl": "https://aws.amazon.com/bedrock/"
+      },
+      "id": "bedrock:ap-south-1"
+    },
+    {
+      "attributes": {
         "aws:region": "ap-southeast-1",
         "aws:serviceName": "Amazon Bedrock",
         "aws:serviceUrl": "https://aws.amazon.com/bedrock/"
@@ -21893,6 +21997,14 @@
         "aws:serviceUrl": "https://aws.amazon.com/bedrock/"
       },
       "id": "bedrock:eu-central-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "eu-west-1",
+        "aws:serviceName": "Amazon Bedrock",
+        "aws:serviceUrl": "https://aws.amazon.com/bedrock/"
+      },
+      "id": "bedrock:eu-west-1"
     },
     {
       "attributes": {
@@ -22429,6 +22541,14 @@
         "aws:serviceUrl": "https://aws.amazon.com/fsx/"
       },
       "id": "fsx:ca-central-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "ca-west-1",
+        "aws:serviceName": "Amazon FSx",
+        "aws:serviceUrl": "https://aws.amazon.com/fsx/"
+      },
+      "id": "fsx:ca-west-1"
     },
     {
       "attributes": {
@@ -25584,6 +25704,14 @@
     },
     {
       "attributes": {
+        "aws:region": "ca-west-1",
+        "aws:serviceName": "AWS Transfer Family",
+        "aws:serviceUrl": "https://aws.amazon.com/aws-transfer-family/"
+      },
+      "id": "transfer:ca-west-1"
+    },
+    {
+      "attributes": {
         "aws:region": "eu-south-2",
         "aws:serviceName": "AWS Transfer Family",
         "aws:serviceUrl": "https://aws.amazon.com/aws-transfer-family/"
@@ -25613,14 +25741,6 @@
         "aws:serviceUrl": "https://aws.amazon.com/aws-transfer-family/"
       },
       "id": "transfer:il-central-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "me-south-1",
-        "aws:serviceName": "AWS Transfer Family",
-        "aws:serviceUrl": "https://aws.amazon.com/aws-transfer-family/"
-      },
-      "id": "transfer:me-south-1"
     },
     {
       "attributes": {
@@ -25664,14 +25784,6 @@
     },
     {
       "attributes": {
-        "aws:region": "cn-northwest-1",
-        "aws:serviceName": "AWS Transfer Family",
-        "aws:serviceUrl": "https://aws.amazon.com/aws-transfer-family/"
-      },
-      "id": "transfer:cn-northwest-1"
-    },
-    {
-      "attributes": {
         "aws:region": "eu-north-1",
         "aws:serviceName": "AWS Transfer Family",
         "aws:serviceUrl": "https://aws.amazon.com/aws-transfer-family/"
@@ -25693,6 +25805,14 @@
         "aws:serviceUrl": "https://aws.amazon.com/aws-transfer-family/"
       },
       "id": "transfer:me-central-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "me-south-1",
+        "aws:serviceName": "AWS Transfer Family",
+        "aws:serviceUrl": "https://aws.amazon.com/aws-transfer-family/"
+      },
+      "id": "transfer:me-south-1"
     },
     {
       "attributes": {
@@ -25725,6 +25845,14 @@
         "aws:serviceUrl": "https://aws.amazon.com/aws-transfer-family/"
       },
       "id": "transfer:cn-north-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "cn-northwest-1",
+        "aws:serviceName": "AWS Transfer Family",
+        "aws:serviceUrl": "https://aws.amazon.com/aws-transfer-family/"
+      },
+      "id": "transfer:cn-northwest-1"
     },
     {
       "attributes": {
@@ -25984,6 +26112,22 @@
     },
     {
       "attributes": {
+        "aws:region": "ap-northeast-2",
+        "aws:serviceName": "Amazon VPC Lattice",
+        "aws:serviceUrl": "https://aws.amazon.com/vpc/lattice/"
+      },
+      "id": "vpc-lattice:ap-northeast-2"
+    },
+    {
+      "attributes": {
+        "aws:region": "ap-south-1",
+        "aws:serviceName": "Amazon VPC Lattice",
+        "aws:serviceUrl": "https://aws.amazon.com/vpc/lattice/"
+      },
+      "id": "vpc-lattice:ap-south-1"
+    },
+    {
+      "attributes": {
         "aws:region": "ap-southeast-2",
         "aws:serviceName": "Amazon VPC Lattice",
         "aws:serviceUrl": "https://aws.amazon.com/vpc/lattice/"
@@ -26005,14 +26149,6 @@
         "aws:serviceUrl": "https://aws.amazon.com/vpc/lattice/"
       },
       "id": "vpc-lattice:eu-north-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "eu-west-1",
-        "aws:serviceName": "Amazon VPC Lattice",
-        "aws:serviceUrl": "https://aws.amazon.com/vpc/lattice/"
-      },
-      "id": "vpc-lattice:eu-west-1"
     },
     {
       "attributes": {
@@ -26048,14 +26184,6 @@
     },
     {
       "attributes": {
-        "aws:region": "us-west-2",
-        "aws:serviceName": "Amazon VPC Lattice",
-        "aws:serviceUrl": "https://aws.amazon.com/vpc/lattice/"
-      },
-      "id": "vpc-lattice:us-west-2"
-    },
-    {
-      "attributes": {
         "aws:region": "ap-southeast-1",
         "aws:serviceName": "Amazon VPC Lattice",
         "aws:serviceUrl": "https://aws.amazon.com/vpc/lattice/"
@@ -26069,6 +26197,22 @@
         "aws:serviceUrl": "https://aws.amazon.com/vpc/lattice/"
       },
       "id": "vpc-lattice:ca-central-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "eu-west-1",
+        "aws:serviceName": "Amazon VPC Lattice",
+        "aws:serviceUrl": "https://aws.amazon.com/vpc/lattice/"
+      },
+      "id": "vpc-lattice:eu-west-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "us-west-2",
+        "aws:serviceName": "Amazon VPC Lattice",
+        "aws:serviceUrl": "https://aws.amazon.com/vpc/lattice/"
+      },
+      "id": "vpc-lattice:us-west-2"
     },
     {
       "attributes": {
@@ -28949,6 +29093,14 @@
         "aws:serviceUrl": "https://aws.amazon.com/snowball/"
       },
       "id": "snowball:eu-central-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "il-central-1",
+        "aws:serviceName": "AWS Snowball",
+        "aws:serviceUrl": "https://aws.amazon.com/snowball/"
+      },
+      "id": "snowball:il-central-1"
     },
     {
       "attributes": {
@@ -34176,6 +34328,14 @@
     },
     {
       "attributes": {
+        "aws:region": "ca-west-1",
+        "aws:serviceName": "Amazon FSx for Lustre",
+        "aws:serviceUrl": "https://aws.amazon.com/fsx/lustre/"
+      },
+      "id": "fsx-lustre:ca-west-1"
+    },
+    {
+      "attributes": {
         "aws:region": "eu-north-1",
         "aws:serviceName": "Amazon FSx for Lustre",
         "aws:serviceUrl": "https://aws.amazon.com/fsx/lustre/"
@@ -34189,14 +34349,6 @@
         "aws:serviceUrl": "https://aws.amazon.com/fsx/lustre/"
       },
       "id": "fsx-lustre:eu-west-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "il-central-1",
-        "aws:serviceName": "Amazon FSx for Lustre",
-        "aws:serviceUrl": "https://aws.amazon.com/fsx/lustre/"
-      },
-      "id": "fsx-lustre:il-central-1"
     },
     {
       "attributes": {
@@ -34272,19 +34424,19 @@
     },
     {
       "attributes": {
-        "aws:region": "eu-west-2",
-        "aws:serviceName": "Amazon FSx for Lustre",
-        "aws:serviceUrl": "https://aws.amazon.com/fsx/lustre/"
-      },
-      "id": "fsx-lustre:eu-west-2"
-    },
-    {
-      "attributes": {
         "aws:region": "eu-west-3",
         "aws:serviceName": "Amazon FSx for Lustre",
         "aws:serviceUrl": "https://aws.amazon.com/fsx/lustre/"
       },
       "id": "fsx-lustre:eu-west-3"
+    },
+    {
+      "attributes": {
+        "aws:region": "il-central-1",
+        "aws:serviceName": "Amazon FSx for Lustre",
+        "aws:serviceUrl": "https://aws.amazon.com/fsx/lustre/"
+      },
+      "id": "fsx-lustre:il-central-1"
     },
     {
       "attributes": {
@@ -34309,14 +34461,6 @@
         "aws:serviceUrl": "https://aws.amazon.com/fsx/lustre/"
       },
       "id": "fsx-lustre:us-west-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "ap-east-1",
-        "aws:serviceName": "Amazon FSx for Lustre",
-        "aws:serviceUrl": "https://aws.amazon.com/fsx/lustre/"
-      },
-      "id": "fsx-lustre:ap-east-1"
     },
     {
       "attributes": {
@@ -34376,6 +34520,14 @@
     },
     {
       "attributes": {
+        "aws:region": "eu-west-2",
+        "aws:serviceName": "Amazon FSx for Lustre",
+        "aws:serviceUrl": "https://aws.amazon.com/fsx/lustre/"
+      },
+      "id": "fsx-lustre:eu-west-2"
+    },
+    {
+      "attributes": {
         "aws:region": "sa-east-1",
         "aws:serviceName": "Amazon FSx for Lustre",
         "aws:serviceUrl": "https://aws.amazon.com/fsx/lustre/"
@@ -34389,6 +34541,14 @@
         "aws:serviceUrl": "https://aws.amazon.com/fsx/lustre/"
       },
       "id": "fsx-lustre:us-west-2"
+    },
+    {
+      "attributes": {
+        "aws:region": "ap-east-1",
+        "aws:serviceName": "Amazon FSx for Lustre",
+        "aws:serviceUrl": "https://aws.amazon.com/fsx/lustre/"
+      },
+      "id": "fsx-lustre:ap-east-1"
     },
     {
       "attributes": {
@@ -34645,54 +34805,6 @@
         "aws:serviceUrl": "https://aws.amazon.com/appsync/"
       },
       "id": "appsync:us-west-2"
-    },
-    {
-      "attributes": {
-        "aws:region": "us-east-1",
-        "aws:serviceName": "AWS Snowmobile",
-        "aws:serviceUrl": "https://aws.amazon.com/snowmobile/"
-      },
-      "id": "snowmobile:us-east-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "us-east-2",
-        "aws:serviceName": "AWS Snowmobile",
-        "aws:serviceUrl": "https://aws.amazon.com/snowmobile/"
-      },
-      "id": "snowmobile:us-east-2"
-    },
-    {
-      "attributes": {
-        "aws:region": "us-gov-east-1",
-        "aws:serviceName": "AWS Snowmobile",
-        "aws:serviceUrl": "https://aws.amazon.com/snowmobile/"
-      },
-      "id": "snowmobile:us-gov-east-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "us-gov-west-1",
-        "aws:serviceName": "AWS Snowmobile",
-        "aws:serviceUrl": "https://aws.amazon.com/snowmobile/"
-      },
-      "id": "snowmobile:us-gov-west-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "us-west-1",
-        "aws:serviceName": "AWS Snowmobile",
-        "aws:serviceUrl": "https://aws.amazon.com/snowmobile/"
-      },
-      "id": "snowmobile:us-west-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "us-west-2",
-        "aws:serviceName": "AWS Snowmobile",
-        "aws:serviceUrl": "https://aws.amazon.com/snowmobile/"
-      },
-      "id": "snowmobile:us-west-2"
     },
     {
       "attributes": {
@@ -35593,6 +35705,166 @@
     {
       "attributes": {
         "aws:region": "ap-northeast-1",
+        "aws:serviceName": "Amazon MemoryDB for Redis",
+        "aws:serviceUrl": "https://aws.amazon.com/memorydb"
+      },
+      "id": "memorydb:ap-northeast-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "ap-southeast-1",
+        "aws:serviceName": "Amazon MemoryDB for Redis",
+        "aws:serviceUrl": "https://aws.amazon.com/memorydb"
+      },
+      "id": "memorydb:ap-southeast-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "ap-southeast-2",
+        "aws:serviceName": "Amazon MemoryDB for Redis",
+        "aws:serviceUrl": "https://aws.amazon.com/memorydb"
+      },
+      "id": "memorydb:ap-southeast-2"
+    },
+    {
+      "attributes": {
+        "aws:region": "cn-north-1",
+        "aws:serviceName": "Amazon MemoryDB for Redis",
+        "aws:serviceUrl": "https://aws.amazon.com/memorydb"
+      },
+      "id": "memorydb:cn-north-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "cn-northwest-1",
+        "aws:serviceName": "Amazon MemoryDB for Redis",
+        "aws:serviceUrl": "https://aws.amazon.com/memorydb"
+      },
+      "id": "memorydb:cn-northwest-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "eu-central-1",
+        "aws:serviceName": "Amazon MemoryDB for Redis",
+        "aws:serviceUrl": "https://aws.amazon.com/memorydb"
+      },
+      "id": "memorydb:eu-central-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "eu-west-1",
+        "aws:serviceName": "Amazon MemoryDB for Redis",
+        "aws:serviceUrl": "https://aws.amazon.com/memorydb"
+      },
+      "id": "memorydb:eu-west-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "eu-west-3",
+        "aws:serviceName": "Amazon MemoryDB for Redis",
+        "aws:serviceUrl": "https://aws.amazon.com/memorydb"
+      },
+      "id": "memorydb:eu-west-3"
+    },
+    {
+      "attributes": {
+        "aws:region": "us-west-1",
+        "aws:serviceName": "Amazon MemoryDB for Redis",
+        "aws:serviceUrl": "https://aws.amazon.com/memorydb"
+      },
+      "id": "memorydb:us-west-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "us-west-2",
+        "aws:serviceName": "Amazon MemoryDB for Redis",
+        "aws:serviceUrl": "https://aws.amazon.com/memorydb"
+      },
+      "id": "memorydb:us-west-2"
+    },
+    {
+      "attributes": {
+        "aws:region": "ap-east-1",
+        "aws:serviceName": "Amazon MemoryDB for Redis",
+        "aws:serviceUrl": "https://aws.amazon.com/memorydb"
+      },
+      "id": "memorydb:ap-east-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "ap-northeast-2",
+        "aws:serviceName": "Amazon MemoryDB for Redis",
+        "aws:serviceUrl": "https://aws.amazon.com/memorydb"
+      },
+      "id": "memorydb:ap-northeast-2"
+    },
+    {
+      "attributes": {
+        "aws:region": "ap-south-1",
+        "aws:serviceName": "Amazon MemoryDB for Redis",
+        "aws:serviceUrl": "https://aws.amazon.com/memorydb"
+      },
+      "id": "memorydb:ap-south-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "ca-central-1",
+        "aws:serviceName": "Amazon MemoryDB for Redis",
+        "aws:serviceUrl": "https://aws.amazon.com/memorydb"
+      },
+      "id": "memorydb:ca-central-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "eu-north-1",
+        "aws:serviceName": "Amazon MemoryDB for Redis",
+        "aws:serviceUrl": "https://aws.amazon.com/memorydb"
+      },
+      "id": "memorydb:eu-north-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "eu-south-1",
+        "aws:serviceName": "Amazon MemoryDB for Redis",
+        "aws:serviceUrl": "https://aws.amazon.com/memorydb"
+      },
+      "id": "memorydb:eu-south-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "eu-west-2",
+        "aws:serviceName": "Amazon MemoryDB for Redis",
+        "aws:serviceUrl": "https://aws.amazon.com/memorydb"
+      },
+      "id": "memorydb:eu-west-2"
+    },
+    {
+      "attributes": {
+        "aws:region": "sa-east-1",
+        "aws:serviceName": "Amazon MemoryDB for Redis",
+        "aws:serviceUrl": "https://aws.amazon.com/memorydb"
+      },
+      "id": "memorydb:sa-east-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "us-east-1",
+        "aws:serviceName": "Amazon MemoryDB for Redis",
+        "aws:serviceUrl": "https://aws.amazon.com/memorydb"
+      },
+      "id": "memorydb:us-east-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "us-east-2",
+        "aws:serviceName": "Amazon MemoryDB for Redis",
+        "aws:serviceUrl": "https://aws.amazon.com/memorydb"
+      },
+      "id": "memorydb:us-east-2"
+    },
+    {
+      "attributes": {
+        "aws:region": "ap-northeast-1",
         "aws:serviceName": "Amazon Lookout for Vision",
         "aws:serviceUrl": "https://aws.amazon.com/lookout-for-vision/"
       },
@@ -36088,171 +36360,235 @@
     },
     {
       "attributes": {
+        "aws:region": "af-south-1",
+        "aws:serviceName": "AWS User Notifications",
+        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
+      },
+      "id": "notifications:af-south-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "ap-east-1",
+        "aws:serviceName": "AWS User Notifications",
+        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
+      },
+      "id": "notifications:ap-east-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "ap-south-2",
+        "aws:serviceName": "AWS User Notifications",
+        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
+      },
+      "id": "notifications:ap-south-2"
+    },
+    {
+      "attributes": {
+        "aws:region": "ap-southeast-2",
+        "aws:serviceName": "AWS User Notifications",
+        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
+      },
+      "id": "notifications:ap-southeast-2"
+    },
+    {
+      "attributes": {
+        "aws:region": "ap-southeast-4",
+        "aws:serviceName": "AWS User Notifications",
+        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
+      },
+      "id": "notifications:ap-southeast-4"
+    },
+    {
+      "attributes": {
+        "aws:region": "eu-central-1",
+        "aws:serviceName": "AWS User Notifications",
+        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
+      },
+      "id": "notifications:eu-central-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "eu-south-1",
+        "aws:serviceName": "AWS User Notifications",
+        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
+      },
+      "id": "notifications:eu-south-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "eu-west-3",
+        "aws:serviceName": "AWS User Notifications",
+        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
+      },
+      "id": "notifications:eu-west-3"
+    },
+    {
+      "attributes": {
+        "aws:region": "il-central-1",
+        "aws:serviceName": "AWS User Notifications",
+        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
+      },
+      "id": "notifications:il-central-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "me-central-1",
+        "aws:serviceName": "AWS User Notifications",
+        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
+      },
+      "id": "notifications:me-central-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "ap-northeast-1",
+        "aws:serviceName": "AWS User Notifications",
+        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
+      },
+      "id": "notifications:ap-northeast-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "ap-northeast-2",
+        "aws:serviceName": "AWS User Notifications",
+        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
+      },
+      "id": "notifications:ap-northeast-2"
+    },
+    {
+      "attributes": {
+        "aws:region": "ap-south-1",
+        "aws:serviceName": "AWS User Notifications",
+        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
+      },
+      "id": "notifications:ap-south-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "ap-southeast-1",
+        "aws:serviceName": "AWS User Notifications",
+        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
+      },
+      "id": "notifications:ap-southeast-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "ap-southeast-3",
+        "aws:serviceName": "AWS User Notifications",
+        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
+      },
+      "id": "notifications:ap-southeast-3"
+    },
+    {
+      "attributes": {
+        "aws:region": "ca-central-1",
+        "aws:serviceName": "AWS User Notifications",
+        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
+      },
+      "id": "notifications:ca-central-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "eu-north-1",
+        "aws:serviceName": "AWS User Notifications",
+        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
+      },
+      "id": "notifications:eu-north-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "eu-south-2",
+        "aws:serviceName": "AWS User Notifications",
+        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
+      },
+      "id": "notifications:eu-south-2"
+    },
+    {
+      "attributes": {
+        "aws:region": "us-east-2",
+        "aws:serviceName": "AWS User Notifications",
+        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
+      },
+      "id": "notifications:us-east-2"
+    },
+    {
+      "attributes": {
+        "aws:region": "us-west-2",
+        "aws:serviceName": "AWS User Notifications",
+        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
+      },
+      "id": "notifications:us-west-2"
+    },
+    {
+      "attributes": {
+        "aws:region": "ap-northeast-3",
+        "aws:serviceName": "AWS User Notifications",
+        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
+      },
+      "id": "notifications:ap-northeast-3"
+    },
+    {
+      "attributes": {
+        "aws:region": "eu-central-2",
+        "aws:serviceName": "AWS User Notifications",
+        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
+      },
+      "id": "notifications:eu-central-2"
+    },
+    {
+      "attributes": {
+        "aws:region": "eu-west-1",
+        "aws:serviceName": "AWS User Notifications",
+        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
+      },
+      "id": "notifications:eu-west-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "eu-west-2",
+        "aws:serviceName": "AWS User Notifications",
+        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
+      },
+      "id": "notifications:eu-west-2"
+    },
+    {
+      "attributes": {
+        "aws:region": "me-south-1",
+        "aws:serviceName": "AWS User Notifications",
+        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
+      },
+      "id": "notifications:me-south-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "sa-east-1",
+        "aws:serviceName": "AWS User Notifications",
+        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
+      },
+      "id": "notifications:sa-east-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "us-east-1",
+        "aws:serviceName": "AWS User Notifications",
+        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
+      },
+      "id": "notifications:us-east-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "us-west-1",
+        "aws:serviceName": "AWS User Notifications",
+        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
+      },
+      "id": "notifications:us-west-1"
+    },
+    {
+      "attributes": {
         "aws:region": "us-east-1",
         "aws:serviceName": "AWS DeepRacer",
         "aws:serviceUrl": "https://aws.amazon.com/deepracer/"
       },
       "id": "deepracer:us-east-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "ap-northeast-1",
-        "aws:serviceName": "Amazon MemoryDB for Redis",
-        "aws:serviceUrl": "https://aws.amazon.com/memorydb"
-      },
-      "id": "memorydb:ap-northeast-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "ap-southeast-1",
-        "aws:serviceName": "Amazon MemoryDB for Redis",
-        "aws:serviceUrl": "https://aws.amazon.com/memorydb"
-      },
-      "id": "memorydb:ap-southeast-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "ap-southeast-2",
-        "aws:serviceName": "Amazon MemoryDB for Redis",
-        "aws:serviceUrl": "https://aws.amazon.com/memorydb"
-      },
-      "id": "memorydb:ap-southeast-2"
-    },
-    {
-      "attributes": {
-        "aws:region": "cn-north-1",
-        "aws:serviceName": "Amazon MemoryDB for Redis",
-        "aws:serviceUrl": "https://aws.amazon.com/memorydb"
-      },
-      "id": "memorydb:cn-north-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "cn-northwest-1",
-        "aws:serviceName": "Amazon MemoryDB for Redis",
-        "aws:serviceUrl": "https://aws.amazon.com/memorydb"
-      },
-      "id": "memorydb:cn-northwest-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "eu-central-1",
-        "aws:serviceName": "Amazon MemoryDB for Redis",
-        "aws:serviceUrl": "https://aws.amazon.com/memorydb"
-      },
-      "id": "memorydb:eu-central-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "eu-west-1",
-        "aws:serviceName": "Amazon MemoryDB for Redis",
-        "aws:serviceUrl": "https://aws.amazon.com/memorydb"
-      },
-      "id": "memorydb:eu-west-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "eu-west-3",
-        "aws:serviceName": "Amazon MemoryDB for Redis",
-        "aws:serviceUrl": "https://aws.amazon.com/memorydb"
-      },
-      "id": "memorydb:eu-west-3"
-    },
-    {
-      "attributes": {
-        "aws:region": "us-west-1",
-        "aws:serviceName": "Amazon MemoryDB for Redis",
-        "aws:serviceUrl": "https://aws.amazon.com/memorydb"
-      },
-      "id": "memorydb:us-west-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "us-west-2",
-        "aws:serviceName": "Amazon MemoryDB for Redis",
-        "aws:serviceUrl": "https://aws.amazon.com/memorydb"
-      },
-      "id": "memorydb:us-west-2"
-    },
-    {
-      "attributes": {
-        "aws:region": "ap-east-1",
-        "aws:serviceName": "Amazon MemoryDB for Redis",
-        "aws:serviceUrl": "https://aws.amazon.com/memorydb"
-      },
-      "id": "memorydb:ap-east-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "ap-northeast-2",
-        "aws:serviceName": "Amazon MemoryDB for Redis",
-        "aws:serviceUrl": "https://aws.amazon.com/memorydb"
-      },
-      "id": "memorydb:ap-northeast-2"
-    },
-    {
-      "attributes": {
-        "aws:region": "ap-south-1",
-        "aws:serviceName": "Amazon MemoryDB for Redis",
-        "aws:serviceUrl": "https://aws.amazon.com/memorydb"
-      },
-      "id": "memorydb:ap-south-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "ca-central-1",
-        "aws:serviceName": "Amazon MemoryDB for Redis",
-        "aws:serviceUrl": "https://aws.amazon.com/memorydb"
-      },
-      "id": "memorydb:ca-central-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "eu-north-1",
-        "aws:serviceName": "Amazon MemoryDB for Redis",
-        "aws:serviceUrl": "https://aws.amazon.com/memorydb"
-      },
-      "id": "memorydb:eu-north-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "eu-south-1",
-        "aws:serviceName": "Amazon MemoryDB for Redis",
-        "aws:serviceUrl": "https://aws.amazon.com/memorydb"
-      },
-      "id": "memorydb:eu-south-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "eu-west-2",
-        "aws:serviceName": "Amazon MemoryDB for Redis",
-        "aws:serviceUrl": "https://aws.amazon.com/memorydb"
-      },
-      "id": "memorydb:eu-west-2"
-    },
-    {
-      "attributes": {
-        "aws:region": "sa-east-1",
-        "aws:serviceName": "Amazon MemoryDB for Redis",
-        "aws:serviceUrl": "https://aws.amazon.com/memorydb"
-      },
-      "id": "memorydb:sa-east-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "us-east-1",
-        "aws:serviceName": "Amazon MemoryDB for Redis",
-        "aws:serviceUrl": "https://aws.amazon.com/memorydb"
-      },
-      "id": "memorydb:us-east-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "us-east-2",
-        "aws:serviceName": "Amazon MemoryDB for Redis",
-        "aws:serviceUrl": "https://aws.amazon.com/memorydb"
-      },
-      "id": "memorydb:us-east-2"
     },
     {
       "attributes": {
@@ -36928,230 +37264,6 @@
     },
     {
       "attributes": {
-        "aws:region": "af-south-1",
-        "aws:serviceName": "AWS User Notifications",
-        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
-      },
-      "id": "notifications:af-south-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "ap-east-1",
-        "aws:serviceName": "AWS User Notifications",
-        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
-      },
-      "id": "notifications:ap-east-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "ap-south-2",
-        "aws:serviceName": "AWS User Notifications",
-        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
-      },
-      "id": "notifications:ap-south-2"
-    },
-    {
-      "attributes": {
-        "aws:region": "ap-southeast-2",
-        "aws:serviceName": "AWS User Notifications",
-        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
-      },
-      "id": "notifications:ap-southeast-2"
-    },
-    {
-      "attributes": {
-        "aws:region": "ap-southeast-4",
-        "aws:serviceName": "AWS User Notifications",
-        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
-      },
-      "id": "notifications:ap-southeast-4"
-    },
-    {
-      "attributes": {
-        "aws:region": "eu-central-1",
-        "aws:serviceName": "AWS User Notifications",
-        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
-      },
-      "id": "notifications:eu-central-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "eu-south-1",
-        "aws:serviceName": "AWS User Notifications",
-        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
-      },
-      "id": "notifications:eu-south-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "eu-west-3",
-        "aws:serviceName": "AWS User Notifications",
-        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
-      },
-      "id": "notifications:eu-west-3"
-    },
-    {
-      "attributes": {
-        "aws:region": "il-central-1",
-        "aws:serviceName": "AWS User Notifications",
-        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
-      },
-      "id": "notifications:il-central-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "me-central-1",
-        "aws:serviceName": "AWS User Notifications",
-        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
-      },
-      "id": "notifications:me-central-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "ap-northeast-1",
-        "aws:serviceName": "AWS User Notifications",
-        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
-      },
-      "id": "notifications:ap-northeast-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "ap-northeast-2",
-        "aws:serviceName": "AWS User Notifications",
-        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
-      },
-      "id": "notifications:ap-northeast-2"
-    },
-    {
-      "attributes": {
-        "aws:region": "ap-south-1",
-        "aws:serviceName": "AWS User Notifications",
-        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
-      },
-      "id": "notifications:ap-south-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "ap-southeast-1",
-        "aws:serviceName": "AWS User Notifications",
-        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
-      },
-      "id": "notifications:ap-southeast-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "ap-southeast-3",
-        "aws:serviceName": "AWS User Notifications",
-        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
-      },
-      "id": "notifications:ap-southeast-3"
-    },
-    {
-      "attributes": {
-        "aws:region": "ca-central-1",
-        "aws:serviceName": "AWS User Notifications",
-        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
-      },
-      "id": "notifications:ca-central-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "eu-north-1",
-        "aws:serviceName": "AWS User Notifications",
-        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
-      },
-      "id": "notifications:eu-north-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "eu-south-2",
-        "aws:serviceName": "AWS User Notifications",
-        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
-      },
-      "id": "notifications:eu-south-2"
-    },
-    {
-      "attributes": {
-        "aws:region": "us-east-2",
-        "aws:serviceName": "AWS User Notifications",
-        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
-      },
-      "id": "notifications:us-east-2"
-    },
-    {
-      "attributes": {
-        "aws:region": "us-west-2",
-        "aws:serviceName": "AWS User Notifications",
-        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
-      },
-      "id": "notifications:us-west-2"
-    },
-    {
-      "attributes": {
-        "aws:region": "ap-northeast-3",
-        "aws:serviceName": "AWS User Notifications",
-        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
-      },
-      "id": "notifications:ap-northeast-3"
-    },
-    {
-      "attributes": {
-        "aws:region": "eu-central-2",
-        "aws:serviceName": "AWS User Notifications",
-        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
-      },
-      "id": "notifications:eu-central-2"
-    },
-    {
-      "attributes": {
-        "aws:region": "eu-west-1",
-        "aws:serviceName": "AWS User Notifications",
-        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
-      },
-      "id": "notifications:eu-west-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "eu-west-2",
-        "aws:serviceName": "AWS User Notifications",
-        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
-      },
-      "id": "notifications:eu-west-2"
-    },
-    {
-      "attributes": {
-        "aws:region": "me-south-1",
-        "aws:serviceName": "AWS User Notifications",
-        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
-      },
-      "id": "notifications:me-south-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "sa-east-1",
-        "aws:serviceName": "AWS User Notifications",
-        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
-      },
-      "id": "notifications:sa-east-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "us-east-1",
-        "aws:serviceName": "AWS User Notifications",
-        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
-      },
-      "id": "notifications:us-east-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "us-west-1",
-        "aws:serviceName": "AWS User Notifications",
-        "aws:serviceUrl": "https://aws.amazon.com/notifications/"
-      },
-      "id": "notifications:us-west-1"
-    },
-    {
-      "attributes": {
         "aws:region": "ap-northeast-1",
         "aws:serviceName": "Amazon Inspector Classic",
         "aws:serviceUrl": "https://docs.aws.amazon.com/inspector/v1/userguide/inspector_introduction.html"
@@ -37445,6 +37557,270 @@
         "aws:serviceUrl": "https://aws.amazon.com/gamelift/"
       },
       "id": "gamelift:eu-central-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "ap-south-2",
+        "aws:serviceName": "Amazon DynamoDB",
+        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
+      },
+      "id": "dynamodb:ap-south-2"
+    },
+    {
+      "attributes": {
+        "aws:region": "ap-southeast-3",
+        "aws:serviceName": "Amazon DynamoDB",
+        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
+      },
+      "id": "dynamodb:ap-southeast-3"
+    },
+    {
+      "attributes": {
+        "aws:region": "ap-southeast-4",
+        "aws:serviceName": "Amazon DynamoDB",
+        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
+      },
+      "id": "dynamodb:ap-southeast-4"
+    },
+    {
+      "attributes": {
+        "aws:region": "cn-north-1",
+        "aws:serviceName": "Amazon DynamoDB",
+        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
+      },
+      "id": "dynamodb:cn-north-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "eu-central-1",
+        "aws:serviceName": "Amazon DynamoDB",
+        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
+      },
+      "id": "dynamodb:eu-central-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "eu-central-2",
+        "aws:serviceName": "Amazon DynamoDB",
+        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
+      },
+      "id": "dynamodb:eu-central-2"
+    },
+    {
+      "attributes": {
+        "aws:region": "eu-north-1",
+        "aws:serviceName": "Amazon DynamoDB",
+        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
+      },
+      "id": "dynamodb:eu-north-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "eu-west-2",
+        "aws:serviceName": "Amazon DynamoDB",
+        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
+      },
+      "id": "dynamodb:eu-west-2"
+    },
+    {
+      "attributes": {
+        "aws:region": "me-south-1",
+        "aws:serviceName": "Amazon DynamoDB",
+        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
+      },
+      "id": "dynamodb:me-south-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "us-gov-east-1",
+        "aws:serviceName": "Amazon DynamoDB",
+        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
+      },
+      "id": "dynamodb:us-gov-east-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "ap-east-1",
+        "aws:serviceName": "Amazon DynamoDB",
+        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
+      },
+      "id": "dynamodb:ap-east-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "ap-northeast-1",
+        "aws:serviceName": "Amazon DynamoDB",
+        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
+      },
+      "id": "dynamodb:ap-northeast-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "ap-northeast-2",
+        "aws:serviceName": "Amazon DynamoDB",
+        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
+      },
+      "id": "dynamodb:ap-northeast-2"
+    },
+    {
+      "attributes": {
+        "aws:region": "ca-central-1",
+        "aws:serviceName": "Amazon DynamoDB",
+        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
+      },
+      "id": "dynamodb:ca-central-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "cn-northwest-1",
+        "aws:serviceName": "Amazon DynamoDB",
+        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
+      },
+      "id": "dynamodb:cn-northwest-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "eu-south-2",
+        "aws:serviceName": "Amazon DynamoDB",
+        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
+      },
+      "id": "dynamodb:eu-south-2"
+    },
+    {
+      "attributes": {
+        "aws:region": "eu-west-1",
+        "aws:serviceName": "Amazon DynamoDB",
+        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
+      },
+      "id": "dynamodb:eu-west-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "me-central-1",
+        "aws:serviceName": "Amazon DynamoDB",
+        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
+      },
+      "id": "dynamodb:me-central-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "us-east-2",
+        "aws:serviceName": "Amazon DynamoDB",
+        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
+      },
+      "id": "dynamodb:us-east-2"
+    },
+    {
+      "attributes": {
+        "aws:region": "us-west-2",
+        "aws:serviceName": "Amazon DynamoDB",
+        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
+      },
+      "id": "dynamodb:us-west-2"
+    },
+    {
+      "attributes": {
+        "aws:region": "ap-northeast-3",
+        "aws:serviceName": "Amazon DynamoDB",
+        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
+      },
+      "id": "dynamodb:ap-northeast-3"
+    },
+    {
+      "attributes": {
+        "aws:region": "ap-south-1",
+        "aws:serviceName": "Amazon DynamoDB",
+        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
+      },
+      "id": "dynamodb:ap-south-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "ap-southeast-1",
+        "aws:serviceName": "Amazon DynamoDB",
+        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
+      },
+      "id": "dynamodb:ap-southeast-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "ap-southeast-2",
+        "aws:serviceName": "Amazon DynamoDB",
+        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
+      },
+      "id": "dynamodb:ap-southeast-2"
+    },
+    {
+      "attributes": {
+        "aws:region": "ca-west-1",
+        "aws:serviceName": "Amazon DynamoDB",
+        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
+      },
+      "id": "dynamodb:ca-west-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "eu-south-1",
+        "aws:serviceName": "Amazon DynamoDB",
+        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
+      },
+      "id": "dynamodb:eu-south-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "il-central-1",
+        "aws:serviceName": "Amazon DynamoDB",
+        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
+      },
+      "id": "dynamodb:il-central-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "sa-east-1",
+        "aws:serviceName": "Amazon DynamoDB",
+        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
+      },
+      "id": "dynamodb:sa-east-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "us-gov-west-1",
+        "aws:serviceName": "Amazon DynamoDB",
+        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
+      },
+      "id": "dynamodb:us-gov-west-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "us-west-1",
+        "aws:serviceName": "Amazon DynamoDB",
+        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
+      },
+      "id": "dynamodb:us-west-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "af-south-1",
+        "aws:serviceName": "Amazon DynamoDB",
+        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
+      },
+      "id": "dynamodb:af-south-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "eu-west-3",
+        "aws:serviceName": "Amazon DynamoDB",
+        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
+      },
+      "id": "dynamodb:eu-west-3"
+    },
+    {
+      "attributes": {
+        "aws:region": "us-east-1",
+        "aws:serviceName": "Amazon DynamoDB",
+        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
+      },
+      "id": "dynamodb:us-east-1"
     },
     {
       "attributes": {
@@ -37912,19 +38288,19 @@
     },
     {
       "attributes": {
-        "aws:region": "ap-southeast-1",
-        "aws:serviceName": "Amazon FSx for OpenZFS",
-        "aws:serviceUrl": "https://aws.amazon.com/fsx/openzfs"
-      },
-      "id": "fsx-openzfs:ap-southeast-1"
-    },
-    {
-      "attributes": {
         "aws:region": "ap-southeast-3",
         "aws:serviceName": "Amazon FSx for OpenZFS",
         "aws:serviceUrl": "https://aws.amazon.com/fsx/openzfs"
       },
       "id": "fsx-openzfs:ap-southeast-3"
+    },
+    {
+      "attributes": {
+        "aws:region": "ca-west-1",
+        "aws:serviceName": "Amazon FSx for OpenZFS",
+        "aws:serviceUrl": "https://aws.amazon.com/fsx/openzfs"
+      },
+      "id": "fsx-openzfs:ca-west-1"
     },
     {
       "attributes": {
@@ -37976,6 +38352,14 @@
     },
     {
       "attributes": {
+        "aws:region": "ap-southeast-1",
+        "aws:serviceName": "Amazon FSx for OpenZFS",
+        "aws:serviceUrl": "https://aws.amazon.com/fsx/openzfs"
+      },
+      "id": "fsx-openzfs:ap-southeast-1"
+    },
+    {
+      "attributes": {
         "aws:region": "eu-central-1",
         "aws:serviceName": "Amazon FSx for OpenZFS",
         "aws:serviceUrl": "https://aws.amazon.com/fsx/openzfs"
@@ -38005,270 +38389,6 @@
         "aws:serviceUrl": "https://aws.amazon.com/payment-cryptography/"
       },
       "id": "payment-cryptography:us-west-2"
-    },
-    {
-      "attributes": {
-        "aws:region": "ap-south-2",
-        "aws:serviceName": "Amazon DynamoDB",
-        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
-      },
-      "id": "dynamodb:ap-south-2"
-    },
-    {
-      "attributes": {
-        "aws:region": "ap-southeast-3",
-        "aws:serviceName": "Amazon DynamoDB",
-        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
-      },
-      "id": "dynamodb:ap-southeast-3"
-    },
-    {
-      "attributes": {
-        "aws:region": "ap-southeast-4",
-        "aws:serviceName": "Amazon DynamoDB",
-        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
-      },
-      "id": "dynamodb:ap-southeast-4"
-    },
-    {
-      "attributes": {
-        "aws:region": "cn-north-1",
-        "aws:serviceName": "Amazon DynamoDB",
-        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
-      },
-      "id": "dynamodb:cn-north-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "eu-central-1",
-        "aws:serviceName": "Amazon DynamoDB",
-        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
-      },
-      "id": "dynamodb:eu-central-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "eu-central-2",
-        "aws:serviceName": "Amazon DynamoDB",
-        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
-      },
-      "id": "dynamodb:eu-central-2"
-    },
-    {
-      "attributes": {
-        "aws:region": "eu-north-1",
-        "aws:serviceName": "Amazon DynamoDB",
-        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
-      },
-      "id": "dynamodb:eu-north-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "eu-west-2",
-        "aws:serviceName": "Amazon DynamoDB",
-        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
-      },
-      "id": "dynamodb:eu-west-2"
-    },
-    {
-      "attributes": {
-        "aws:region": "me-south-1",
-        "aws:serviceName": "Amazon DynamoDB",
-        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
-      },
-      "id": "dynamodb:me-south-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "us-gov-east-1",
-        "aws:serviceName": "Amazon DynamoDB",
-        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
-      },
-      "id": "dynamodb:us-gov-east-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "ap-east-1",
-        "aws:serviceName": "Amazon DynamoDB",
-        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
-      },
-      "id": "dynamodb:ap-east-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "ap-northeast-1",
-        "aws:serviceName": "Amazon DynamoDB",
-        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
-      },
-      "id": "dynamodb:ap-northeast-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "ap-northeast-2",
-        "aws:serviceName": "Amazon DynamoDB",
-        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
-      },
-      "id": "dynamodb:ap-northeast-2"
-    },
-    {
-      "attributes": {
-        "aws:region": "ca-central-1",
-        "aws:serviceName": "Amazon DynamoDB",
-        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
-      },
-      "id": "dynamodb:ca-central-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "cn-northwest-1",
-        "aws:serviceName": "Amazon DynamoDB",
-        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
-      },
-      "id": "dynamodb:cn-northwest-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "eu-south-2",
-        "aws:serviceName": "Amazon DynamoDB",
-        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
-      },
-      "id": "dynamodb:eu-south-2"
-    },
-    {
-      "attributes": {
-        "aws:region": "eu-west-1",
-        "aws:serviceName": "Amazon DynamoDB",
-        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
-      },
-      "id": "dynamodb:eu-west-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "me-central-1",
-        "aws:serviceName": "Amazon DynamoDB",
-        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
-      },
-      "id": "dynamodb:me-central-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "us-east-2",
-        "aws:serviceName": "Amazon DynamoDB",
-        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
-      },
-      "id": "dynamodb:us-east-2"
-    },
-    {
-      "attributes": {
-        "aws:region": "us-west-2",
-        "aws:serviceName": "Amazon DynamoDB",
-        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
-      },
-      "id": "dynamodb:us-west-2"
-    },
-    {
-      "attributes": {
-        "aws:region": "ap-northeast-3",
-        "aws:serviceName": "Amazon DynamoDB",
-        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
-      },
-      "id": "dynamodb:ap-northeast-3"
-    },
-    {
-      "attributes": {
-        "aws:region": "ap-south-1",
-        "aws:serviceName": "Amazon DynamoDB",
-        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
-      },
-      "id": "dynamodb:ap-south-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "ap-southeast-1",
-        "aws:serviceName": "Amazon DynamoDB",
-        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
-      },
-      "id": "dynamodb:ap-southeast-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "ap-southeast-2",
-        "aws:serviceName": "Amazon DynamoDB",
-        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
-      },
-      "id": "dynamodb:ap-southeast-2"
-    },
-    {
-      "attributes": {
-        "aws:region": "ca-west-1",
-        "aws:serviceName": "Amazon DynamoDB",
-        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
-      },
-      "id": "dynamodb:ca-west-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "eu-south-1",
-        "aws:serviceName": "Amazon DynamoDB",
-        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
-      },
-      "id": "dynamodb:eu-south-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "il-central-1",
-        "aws:serviceName": "Amazon DynamoDB",
-        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
-      },
-      "id": "dynamodb:il-central-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "sa-east-1",
-        "aws:serviceName": "Amazon DynamoDB",
-        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
-      },
-      "id": "dynamodb:sa-east-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "us-gov-west-1",
-        "aws:serviceName": "Amazon DynamoDB",
-        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
-      },
-      "id": "dynamodb:us-gov-west-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "us-west-1",
-        "aws:serviceName": "Amazon DynamoDB",
-        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
-      },
-      "id": "dynamodb:us-west-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "af-south-1",
-        "aws:serviceName": "Amazon DynamoDB",
-        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
-      },
-      "id": "dynamodb:af-south-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "eu-west-3",
-        "aws:serviceName": "Amazon DynamoDB",
-        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
-      },
-      "id": "dynamodb:eu-west-3"
-    },
-    {
-      "attributes": {
-        "aws:region": "us-east-1",
-        "aws:serviceName": "Amazon DynamoDB",
-        "aws:serviceUrl": "https://aws.amazon.com/dynamodb/"
-      },
-      "id": "dynamodb:us-east-1"
     },
     {
       "attributes": {
@@ -39152,6 +39272,126 @@
     },
     {
       "attributes": {
+        "aws:region": "ap-northeast-2",
+        "aws:serviceName": "Amazon Rekognition",
+        "aws:serviceUrl": "https://aws.amazon.com/rekognition/"
+      },
+      "id": "rekognition:ap-northeast-2"
+    },
+    {
+      "attributes": {
+        "aws:region": "ap-southeast-1",
+        "aws:serviceName": "Amazon Rekognition",
+        "aws:serviceUrl": "https://aws.amazon.com/rekognition/"
+      },
+      "id": "rekognition:ap-southeast-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "ap-southeast-2",
+        "aws:serviceName": "Amazon Rekognition",
+        "aws:serviceUrl": "https://aws.amazon.com/rekognition/"
+      },
+      "id": "rekognition:ap-southeast-2"
+    },
+    {
+      "attributes": {
+        "aws:region": "ca-central-1",
+        "aws:serviceName": "Amazon Rekognition",
+        "aws:serviceUrl": "https://aws.amazon.com/rekognition/"
+      },
+      "id": "rekognition:ca-central-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "eu-central-1",
+        "aws:serviceName": "Amazon Rekognition",
+        "aws:serviceUrl": "https://aws.amazon.com/rekognition/"
+      },
+      "id": "rekognition:eu-central-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "il-central-1",
+        "aws:serviceName": "Amazon Rekognition",
+        "aws:serviceUrl": "https://aws.amazon.com/rekognition/"
+      },
+      "id": "rekognition:il-central-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "us-east-1",
+        "aws:serviceName": "Amazon Rekognition",
+        "aws:serviceUrl": "https://aws.amazon.com/rekognition/"
+      },
+      "id": "rekognition:us-east-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "us-east-2",
+        "aws:serviceName": "Amazon Rekognition",
+        "aws:serviceUrl": "https://aws.amazon.com/rekognition/"
+      },
+      "id": "rekognition:us-east-2"
+    },
+    {
+      "attributes": {
+        "aws:region": "us-gov-west-1",
+        "aws:serviceName": "Amazon Rekognition",
+        "aws:serviceUrl": "https://aws.amazon.com/rekognition/"
+      },
+      "id": "rekognition:us-gov-west-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "us-west-1",
+        "aws:serviceName": "Amazon Rekognition",
+        "aws:serviceUrl": "https://aws.amazon.com/rekognition/"
+      },
+      "id": "rekognition:us-west-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "ap-northeast-1",
+        "aws:serviceName": "Amazon Rekognition",
+        "aws:serviceUrl": "https://aws.amazon.com/rekognition/"
+      },
+      "id": "rekognition:ap-northeast-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "ap-south-1",
+        "aws:serviceName": "Amazon Rekognition",
+        "aws:serviceUrl": "https://aws.amazon.com/rekognition/"
+      },
+      "id": "rekognition:ap-south-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "eu-west-1",
+        "aws:serviceName": "Amazon Rekognition",
+        "aws:serviceUrl": "https://aws.amazon.com/rekognition/"
+      },
+      "id": "rekognition:eu-west-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "eu-west-2",
+        "aws:serviceName": "Amazon Rekognition",
+        "aws:serviceUrl": "https://aws.amazon.com/rekognition/"
+      },
+      "id": "rekognition:eu-west-2"
+    },
+    {
+      "attributes": {
+        "aws:region": "us-west-2",
+        "aws:serviceName": "Amazon Rekognition",
+        "aws:serviceUrl": "https://aws.amazon.com/rekognition/"
+      },
+      "id": "rekognition:us-west-2"
+    },
+    {
+      "attributes": {
         "aws:region": "ap-south-1",
         "aws:serviceName": "AWS Lambda",
         "aws:serviceUrl": "https://aws.amazon.com/lambda/"
@@ -39776,126 +40016,6 @@
     },
     {
       "attributes": {
-        "aws:region": "ap-northeast-2",
-        "aws:serviceName": "Amazon Rekognition",
-        "aws:serviceUrl": "https://aws.amazon.com/rekognition/"
-      },
-      "id": "rekognition:ap-northeast-2"
-    },
-    {
-      "attributes": {
-        "aws:region": "ap-southeast-1",
-        "aws:serviceName": "Amazon Rekognition",
-        "aws:serviceUrl": "https://aws.amazon.com/rekognition/"
-      },
-      "id": "rekognition:ap-southeast-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "ap-southeast-2",
-        "aws:serviceName": "Amazon Rekognition",
-        "aws:serviceUrl": "https://aws.amazon.com/rekognition/"
-      },
-      "id": "rekognition:ap-southeast-2"
-    },
-    {
-      "attributes": {
-        "aws:region": "ca-central-1",
-        "aws:serviceName": "Amazon Rekognition",
-        "aws:serviceUrl": "https://aws.amazon.com/rekognition/"
-      },
-      "id": "rekognition:ca-central-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "eu-central-1",
-        "aws:serviceName": "Amazon Rekognition",
-        "aws:serviceUrl": "https://aws.amazon.com/rekognition/"
-      },
-      "id": "rekognition:eu-central-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "il-central-1",
-        "aws:serviceName": "Amazon Rekognition",
-        "aws:serviceUrl": "https://aws.amazon.com/rekognition/"
-      },
-      "id": "rekognition:il-central-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "us-east-1",
-        "aws:serviceName": "Amazon Rekognition",
-        "aws:serviceUrl": "https://aws.amazon.com/rekognition/"
-      },
-      "id": "rekognition:us-east-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "us-east-2",
-        "aws:serviceName": "Amazon Rekognition",
-        "aws:serviceUrl": "https://aws.amazon.com/rekognition/"
-      },
-      "id": "rekognition:us-east-2"
-    },
-    {
-      "attributes": {
-        "aws:region": "us-gov-west-1",
-        "aws:serviceName": "Amazon Rekognition",
-        "aws:serviceUrl": "https://aws.amazon.com/rekognition/"
-      },
-      "id": "rekognition:us-gov-west-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "us-west-1",
-        "aws:serviceName": "Amazon Rekognition",
-        "aws:serviceUrl": "https://aws.amazon.com/rekognition/"
-      },
-      "id": "rekognition:us-west-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "ap-northeast-1",
-        "aws:serviceName": "Amazon Rekognition",
-        "aws:serviceUrl": "https://aws.amazon.com/rekognition/"
-      },
-      "id": "rekognition:ap-northeast-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "ap-south-1",
-        "aws:serviceName": "Amazon Rekognition",
-        "aws:serviceUrl": "https://aws.amazon.com/rekognition/"
-      },
-      "id": "rekognition:ap-south-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "eu-west-1",
-        "aws:serviceName": "Amazon Rekognition",
-        "aws:serviceUrl": "https://aws.amazon.com/rekognition/"
-      },
-      "id": "rekognition:eu-west-1"
-    },
-    {
-      "attributes": {
-        "aws:region": "eu-west-2",
-        "aws:serviceName": "Amazon Rekognition",
-        "aws:serviceUrl": "https://aws.amazon.com/rekognition/"
-      },
-      "id": "rekognition:eu-west-2"
-    },
-    {
-      "attributes": {
-        "aws:region": "us-west-2",
-        "aws:serviceName": "Amazon Rekognition",
-        "aws:serviceUrl": "https://aws.amazon.com/rekognition/"
-      },
-      "id": "rekognition:us-west-2"
-    },
-    {
-      "attributes": {
         "aws:region": "ap-northeast-1",
         "aws:serviceName": "AWS Elemental MediaStore",
         "aws:serviceUrl": "https://aws.amazon.com/mediastore/"
@@ -40320,19 +40440,19 @@
     },
     {
       "attributes": {
-        "aws:region": "ap-southeast-4",
-        "aws:serviceName": "Amazon FSx for Windows File Server",
-        "aws:serviceUrl": "https://aws.amazon.com/fsx/windows/"
-      },
-      "id": "fsx-windows:ap-southeast-4"
-    },
-    {
-      "attributes": {
         "aws:region": "ca-central-1",
         "aws:serviceName": "Amazon FSx for Windows File Server",
         "aws:serviceUrl": "https://aws.amazon.com/fsx/windows/"
       },
       "id": "fsx-windows:ca-central-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "ca-west-1",
+        "aws:serviceName": "Amazon FSx for Windows File Server",
+        "aws:serviceUrl": "https://aws.amazon.com/fsx/windows/"
+      },
+      "id": "fsx-windows:ca-west-1"
     },
     {
       "attributes": {
@@ -40392,14 +40512,6 @@
     },
     {
       "attributes": {
-        "aws:region": "af-south-1",
-        "aws:serviceName": "Amazon FSx for Windows File Server",
-        "aws:serviceUrl": "https://aws.amazon.com/fsx/windows/"
-      },
-      "id": "fsx-windows:af-south-1"
-    },
-    {
-      "attributes": {
         "aws:region": "ap-southeast-1",
         "aws:serviceName": "Amazon FSx for Windows File Server",
         "aws:serviceUrl": "https://aws.amazon.com/fsx/windows/"
@@ -40421,6 +40533,14 @@
         "aws:serviceUrl": "https://aws.amazon.com/fsx/windows/"
       },
       "id": "fsx-windows:ap-southeast-3"
+    },
+    {
+      "attributes": {
+        "aws:region": "ap-southeast-4",
+        "aws:serviceName": "Amazon FSx for Windows File Server",
+        "aws:serviceUrl": "https://aws.amazon.com/fsx/windows/"
+      },
+      "id": "fsx-windows:ap-southeast-4"
     },
     {
       "attributes": {
@@ -40469,6 +40589,14 @@
         "aws:serviceUrl": "https://aws.amazon.com/fsx/windows/"
       },
       "id": "fsx-windows:me-south-1"
+    },
+    {
+      "attributes": {
+        "aws:region": "af-south-1",
+        "aws:serviceName": "Amazon FSx for Windows File Server",
+        "aws:serviceUrl": "https://aws.amazon.com/fsx/windows/"
+      },
+      "id": "fsx-windows:af-south-1"
     },
     {
       "attributes": {
