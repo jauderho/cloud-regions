@@ -9,4 +9,4 @@ This documents available regions from each major cloud provider:
 - Oracle
 - IBM Cloud
 
-Pull requests are welcome
+Pull requests are welcome if you want to help.
